@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+body .back {
+  font-size: 2rem;
+  background-color: #000;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+
+body .back a:visited {
+  color: red;
+}
+
+body .back a:hover {
+  color: #fff;
+}
+
+h1 {
+  font-size: 3rem;
+  text-shadow: 1px 1px 3px red;
+  text-align: center;
+}
+
+.img-ctn {
+  width: 100%;
+  height: 40%;
+  margin: 0.5rem 1rem;
+}
+
+img {
+  width: 90%;
+  border-radius: 2rem;
+}
+
+.home .recipes {
+  margin-left: 1rem;
+}
+
+.recipes li {
+  font-size: 1.5rem;
+  color: #000;
+  margin: 1.5rem 0;
+}
+
+.recipes li a:visited {
+  color: black;
+}
+
+.recipes li a:hover {
+  background-color: #000;
+  color: #fff;
+  padding: 0.5rem;
+  width: min(90%, 300px);
+  border-radius: 1rem;
+}
+
+/* RECIPE INGREDIENTS */
+
+.recipe-ctn {
+  margin: 0.5rem 1rem;
+}
+
+.recipe-ctn h3 {
+  text-transform: uppercase;
+}
+
+.recipe-ctn .ingredients {
+  font-size: 1.15rem;
+  margin-left: 2rem;
+  margin-bottom: 0.25rem;
+}
+
+.procedure p {
+  font-size: 1.15rem;
+  text-align: balance;
+  width: 100%;
+}
+
+.procedure h4 {
+  font-size: 1.2rem;
+  font-style: italic;
+  margin: 1rem 0;
+}
+
+@media (320px <= width <= 480px) {
+  /* DARK CHOCOLATE */
+  .choco h1 {
+    margin-top: 3rem;
+  }
+
+  /* RED VELVET CAKE */
+  .velvet h1 {
+    margin-top: 3rem;
+  }
+}
